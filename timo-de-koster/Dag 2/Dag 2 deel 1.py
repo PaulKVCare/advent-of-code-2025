@@ -28,7 +28,7 @@ for range in ranges:
     #maar dan een keer herhaald met zichzelf
     candidate = int(first + first)
 
-    #hier tel ik gwn elke keer eentje bij op mijn linkerhelft van het palindroom
+    #hier tel ik gwn elke keer eentje bij op mijn linkerhelft van het ID
     #en vervolgens maak ik er weer een kandidaat van, kijken of het nog binnen de reeks past
     while(candidate < upperBound):
         if(candidate >= lowerBound):
