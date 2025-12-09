@@ -16,8 +16,6 @@ with open('input.txt', 'r') as file:
                 left = coord - 1
                 right = coord + 1
 
-                beamSplit = False
-
                 if not beamCoords.__contains__(left):
                     newCoords.add(left)
                 if not beamCoords.__contains__(right):
